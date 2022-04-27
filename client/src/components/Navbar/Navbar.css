@@ -1,0 +1,94 @@
+
+
+.nav_container{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    position:relative;
+    height: 4.5rem;
+    padding: 0 1rem;
+
+    border: 2px solid black;
+    z-index: 10;
+    /* background-color: #1c1d1f; */
+}
+
+.udemy_logo_div{
+    width: 6rem;
+    /* height: 100%; */
+    border: 2px  solid red;
+}
+
+.udemy_logo_div > img{
+    width: 91px;
+    /* width: 100%; */
+    height: auto;
+}
+
+.category_dropdown_div{
+    width: 7.3rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    /* height: 100%;
+    border: 2px solid gray;
+    padding: auto auto; */
+}
+
+.search_input_div{
+    width: 42%;
+    /* height: 100%; */
+    background-color: aquamarine;
+}
+
+.search_input{
+    width: 95%;
+    padding: 1rem 2.5%;
+    color: #1c1d1f  ;
+    border-radius: 1.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+    border: 0.02rem solid #1c1d1f;
+    padding-left: 7%;
+    outline: none;
+}
+
+.drop_down_btns{
+    color: #1c1d1f;
+    font-size: 0.9rem;
+    cursor: pointer;
+    white-space:nowrap;
+}
+
+.drop_down_btns:hover{
+    color: #5624d0;
+}
+
+.unauth_icon_div{
+    margin-left: 2.3rem;
+    padding-top: 0.5rem;
+}
+
+.authnav_icon_div{
+    margin-left: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.unauth_btns{
+    font-size: 0.95rem;
+    width: 5rem;    
+    height: 2.5rem;
+    font-weight: 600;
+    padding: 0.6rem 0.7rem 0.6rem 0.7rem ;
+}
+
+.login_btn_div button{
+    border: 0.02rem solid #1c1d1f;
+    color: #1c1d1f;
+
+}
+
+.sign_up_div button{
+    margin-left: 0.5rem;
+    background-color:  #1c1d1f;
+    color: #fff;
+}
