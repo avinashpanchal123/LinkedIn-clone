@@ -13,6 +13,54 @@
     /* background-color: #1c1d1f; */
 }
 
+.density_icon_div{
+    display: none;
+}
+
+
+
+.basic_modal{
+    width: 100%;
+   height: auto;
+   /* overflow-y: scroll; */
+}
+
+.modal_div{
+    overflow-y: scroll;
+    height: 130vh;
+}
+.modal_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17rem;
+    background-color: #ffffff;
+    box-shadow: 24;
+    padding: 4;
+ 
+}
+
+.modal_x{
+    font-size: 1.6rem;
+    /* border: 2px solid black; */
+    cursor: pointer;
+    /* padding: 2px; */
+    position: fixed;
+    top: 2vh;
+    left: 18rem;
+    text-align: center;
+    border-radius:50% ;
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color:#fff ;
+}
+
+.density_icon{
+    
+    font-weight: 700;
+    /* background-color: red; */
+}
+
 .udemy_logo_div{
     width: 6rem;
     /* height: 100%; */
@@ -91,4 +139,35 @@
     margin-left: 0.5rem;
     background-color:  #1c1d1f;
     color: #fff;
+}
+
+@media (max-width : 600px) {
+    .nav_container{
+        justify-content: space-between;
+    }
+
+    .density_icon_div{
+        display: block;
+    }
+
+ 
+   .cart_icon_div, .search_input_div,.login_btn_div , .sign_up_div, .category_dropdown_div{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 600px) and (max-width: 800px)  {
+    .nav_container{
+        justify-content: space-between;
+    }
+    .density_icon_div{
+        display: block;
+    }
+    .search_input_div,.sign_up_div, .login_btn_div, .category_dropdown_div{
+        display: none;
+    }
+
+    
 }

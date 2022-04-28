@@ -15,7 +15,7 @@ const AuthNav = ()=> {
       <div className="authnav_icon_div">
       <FavoriteBorderOutlinedIcon/>
       </div>
-      <div className="authnav_icon_div">
+      <div className="authnav_icon_div cart_icon_div">
       <ShoppingCartOutlinedIcon/>
       </div>
       <div className="authnav_icon_div right_margin">

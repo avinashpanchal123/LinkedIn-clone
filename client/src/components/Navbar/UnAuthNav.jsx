@@ -2,10 +2,11 @@ import React from 'react'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import {Link, useNavigate} from "react-router-dom"
 
+
 const  UnAuthNav = ()=> {
   return (
     <>
-     <div className="unauth_icon_div">
+     <div className="unauth_icon_div cart_icon_div">
       <ShoppingCartOutlinedIcon/>
       </div>
       <div className="login_btn_div left_marin">
